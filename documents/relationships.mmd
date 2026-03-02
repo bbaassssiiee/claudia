@@ -82,6 +82,11 @@ graph LR
   patterns/happy-to-delete <-->|similar| patterns/playgrounds
   patterns/approved-fixtures <-->|similar| patterns/check-alignment
   patterns/approved-fixtures <-->|similar| patterns/approved-logs
+  patterns/adoption-cast -->|related| anti-patterns/flying-blind
+  patterns/adoption-cast -->|related| anti-patterns/distracted-agent
+  patterns/adoption-cast -->|related| anti-patterns/unvalidated-leaps
+  patterns/adoption-cast <-->|similar| patterns/check-alignment
+  patterns/adoption-cast <-->|similar| patterns/ground-rules
 
   %% Anti-pattern → Obstacle relationships (causes)
   anti-patterns/distracted-agent -->|causes| obstacles/limited-focus
