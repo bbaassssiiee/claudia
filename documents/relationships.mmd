@@ -87,6 +87,10 @@ graph LR
   patterns/adoption-cast -->|related| anti-patterns/unvalidated-leaps
   patterns/adoption-cast <-->|similar| patterns/check-alignment
   patterns/adoption-cast <-->|similar| patterns/ground-rules
+  patterns/theatre -->|solves| anti-patterns/flying-blind
+  patterns/theatre -->|solves| obstacles/black-box-ai
+  patterns/theatre <-->|similar| patterns/adoption-cast
+  patterns/theatre -->|related| patterns/orchestrator
 
   %% Anti-pattern → Obstacle relationships (causes)
   anti-patterns/distracted-agent -->|causes| obstacles/limited-focus
