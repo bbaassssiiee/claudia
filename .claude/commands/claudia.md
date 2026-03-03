@@ -41,7 +41,7 @@ Map the topic to the right reference file and read it before responding.
 | settings, permissions, allow, deny, env, allowedTools, settings.json | `@.claude/skills/coach/references/claude-code-settings.md` |
 | pattern, anti-pattern, obstacle, documents/, contribute, catalog | `@.claude/skills/coach/references/claude-code-patterns.md` |
 | MCP, server, tool integration, external service | `@.claude/skills/coach/references/claude-code-mcp.md` |
-| role, director, primary actor, participant, observer, session | `@documents/theatre/backstage/role-dynamics.md` |
+| role, director, primary actor, participant, observer, antagonist, session, premature consensus, friction | `@documents/theatre/backstage/role-dynamics.md` |
 | scaffold, augmented scaffolding, three layers, architecture | `@documents/theatre/backstage/augmented-scaffolding.md` |
 
 If the topic spans multiple areas, read all relevant reference files.
