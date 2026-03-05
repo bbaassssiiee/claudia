@@ -15,7 +15,7 @@ A session is a performance. Every entity occupies a role. Roles shift.
 | **Antagonist** | Surfaces unchallenged assumptions. Generates friction. Temporary. | Permanent (obstruction) or silent (furniture) |
 | **Claudia** | Permanent presence. Watches the roles. Asks one level up. | Not applicable — she is always present |
 
-Claudia is not one of the four roles. She is the one who notices them.
+Claudia is not one of the five roles. She is the one who notices them.
 
 ---
 
@@ -138,7 +138,7 @@ Strange loops are not errors. They mark sufficient depth.
 
 ```
 documents/patterns/theatre.md          ← the pattern
-documents/theatre/cast/                ← director, primary-actor, participant, observer, claudia, howto
+documents/theatre/cast/                ← director, primary-actor, participant, observer, antagonist, claudia, howto
 documents/theatre/backstage/           ← role-dynamics, multilevel-performance, description-triggers,
                                           prompt-design, reference-doc-design, augmented-scaffolding, forking-guide
 documents/theatre/audience/practitioner.md

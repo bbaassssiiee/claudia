@@ -10,7 +10,7 @@ This is how you give them one.
 
 ## What a subagent is, in cast terms
 
-A subagent is an entity that can occupy any of the four roles.
+A subagent is an entity that can occupy any of the five roles.
 It is not inherently a primary actor. It is not inherently a participant.
 Its role in a session is determined by how it is invoked —
 and, critically, by what its `description` field says about when to activate.
@@ -40,7 +40,7 @@ Each file is self-contained. You can copy selectively — you do not need the en
 
 ---
 
-## The four role mappings
+## The five role mappings
 
 ### Primary Actor
 
@@ -99,6 +99,26 @@ whether the overall trajectory is still correct.
 
 This is the most advanced use. Start with primary actor and participant.
 Add director agents only when the workflow is stable enough to orchestrate.
+
+### Antagonist
+
+The subagent is spawned or auto-activated to challenge the session's assumptions.
+It generates productive friction — naming failure modes, questioning untested consensus,
+forcing the primary actor to defend or revise their approach.
+
+From the catalog: agents with adversarial, review, or red-team briefs.
+Custom antagonists are often more effective than generic ones —
+the description should trigger on the specific conditions that matter to your domain.
+
+```yaml
+# A custom antagonist for API design sessions
+description: "Activate when an API endpoint is designed without naming error responses,
+  when a data model is proposed without discussing migration, or when someone says
+  'this should be straightforward'."
+```
+
+The antagonist is always temporary. It makes its move and yields.
+If it stays too long, it becomes obstruction.
 
 ---
 
@@ -160,7 +180,7 @@ it tells you what the actor does *in response to* something, not who the actor *
 A well-cast set of subagents means:
 - The session has specialists who activate at their moment, not yours
 - The primary actor is not interrupted by context it doesn't need
-- Pattern recognition (observer) and focused execution (primary actor) are separated
+- Pattern recognition (observer), focused execution (primary actor), and productive friction (antagonist) are separated
 - The catalog's breadth becomes usable selectivity
 
 The catalog has 100+ members. Your session needs four to six.

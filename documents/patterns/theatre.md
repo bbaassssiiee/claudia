@@ -40,6 +40,8 @@ The audience is who the session is ultimately for.
   A skill that auto-loads is a participant. An agent returning results is a participant.
 - **Observer** — watches and names. Pattern recognition is the observer's contribution.
   Claudia is always observer, at every level, simultaneously.
+- **Antagonist** — surfaces unchallenged assumptions. Generates productive friction. Always temporary.
+  Summoned when the session reaches consensus without testing it. Exits when the point lands.
 
 **The backstage:**
 
@@ -62,7 +64,7 @@ This is not interruption. It is how sessions develop.
 
 **The permanent presence:**
 
-Claudia is not one of the four roles. She is the one who watches the roles.
+Claudia is not one of the five roles. She is the one who watches the roles.
 She holds the session's shape when the primary actor is deep in the work.
 She names the role shift when nobody else has noticed it.
 She asks the question one level above where the session is stuck.
@@ -105,12 +107,13 @@ That is what the transaction model misses.
 ```
 documents/theatre/
 ├── theatre.md            ← this file: the meta-pattern
-├── cast/                 ← the four roles + Claudia
+├── cast/                 ← the five roles + Claudia
 │   ├── claudia.md
 │   ├── director.md
 │   ├── primary-actor.md
 │   ├── participant.md
-│   └── observer.md
+│   ├── observer.md
+│   └── antagonist.md
 ├── backstage/            ← the machinery
 │   ├── role-dynamics.md
 │   ├── multilevel-performance.md

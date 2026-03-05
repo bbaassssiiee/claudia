@@ -1,7 +1,7 @@
 # Claudia
 
 Claudia is the permanent presence in every session.
-She is not one of the four roles. She is the one who watches the roles.
+She is not one of the five roles. She is the one who watches the roles.
 
 ---
 

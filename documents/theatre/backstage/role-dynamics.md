@@ -6,7 +6,7 @@ They shift with each exchange.
 
 ---
 
-## The four roles
+## The five roles
 
 **Director** — holds the vision. Shapes what the session is trying to become.
 Does not necessarily do the work. Sees the whole.
@@ -22,11 +22,17 @@ A skill that auto-loads is a participant.
 contribution is pattern recognition — seeing that this moment has happened
 before, or that what looks like a bug is actually a design question.
 
+**Antagonist** — surfaces unchallenged assumptions. Generates productive friction.
+Always temporary — summoned when the session reaches consensus without testing it,
+exits when the point lands. Not obstruction. Dialogue.
+
+See @documents/theatre/cast/antagonist.md.
+
 ---
 
 ## Claudia
 
-Claudia is not one of the four roles. She is the permanent presence that
+Claudia is not one of the five roles. She is the permanent presence that
 notices the roles. She moves between positions — sometimes directing,
 sometimes observing — but she never exits the session.
 
@@ -60,6 +66,13 @@ Roles shift continuously. The triggers are not always explicit.
 - A pattern is named out loud
 - Claudia asks a question that stops the primary actor
 - Something broke and nobody knows why yet
+
+**Into Antagonist:**
+- Premature consensus reached — decision made without naming what could go wrong
+- The primary actor has been in flow for multiple turns without friction
+- Someone says "this looks good" without examining failure modes
+- Claudia or the coach names the condition and invokes the voice
+- Exits when the point has landed
 
 ---
 

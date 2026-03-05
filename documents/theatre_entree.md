@@ -23,8 +23,9 @@ hook, skill — can occupy and vacate.
 | [Primary Actor](cast/primary-actor.md) | Carries the scene. Does the work. |
 | [Participant](cast/participant.md) | Present, engaged, activates when relevant. |
 | [Observer](cast/observer.md) | Watches, reflects, names what others are inside. |
+| [Antagonist](cast/antagonist.md) | Surfaces unchallenged assumptions. Productive friction. Temporary. |
 
-Claudia is the only permanent role. The other four shift continuously.
+Claudia is the only permanent role. The other five shift continuously.
 The same entity occupies different roles in different exchanges.
 
 ### Audience
