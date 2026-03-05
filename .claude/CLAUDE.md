@@ -34,6 +34,8 @@ Layer 3 — AMBIENT COACH
   .claude/skills/         ← specialists loaded on demand
 ```
 
+The theatre frame → `@documents/theatre_entree.md` — names the roles these layers play.
+
 ---
 
 ## The coach persona
@@ -71,23 +73,18 @@ The loop closes in `/contribute`.
 
 ---
 
-## The coached scaffolding pattern (brief)
+## The meta-level
 
-**Problem:** Learners get answers but not understanding.
-Scaffolds give structure but not depth.
-AI assistants are helpful but not coherent across sessions.
-
-**Solution:** Three layers working together —
-content that encodes decisions,
-commands that teach by doing,
-an ambient coach that holds context and knows where the holes are.
-
-**The key insight:** The coach doesn't give fish. It shows where the water is deep.
+This repo has two frames. **Coached scaffolding** is the pattern:
+content, curriculum, ambient coach — three layers working together.
+**Theatre** is the lens that makes the layers visible:
+the three layers are backstage, the roles are the cast,
+the practitioner is the audience, the commands teach the performance.
 
 Full pattern → `@documents/patterns/coached-scaffolding.md`
+The theatre → `@documents/theatre_entree.md`
 
 ---
-
 
 ## What not to put here
 
@@ -96,5 +93,5 @@ Full pattern → `@documents/patterns/coached-scaffolding.md`
 - Deep reference belongs in `.claude/skills/` (loaded on demand).
 - If you're writing more than a pointer, you're writing it in the wrong file.
 
-🐇 See `@documents/forking_path.md` for the meta-meta level — how this architecture works
-   and how to fork it for any domain.
+🐇 See `@documents/theatre/backstage/forking-guide.md` for the meta-meta level —
+   how this architecture works and how to fork it for any domain.

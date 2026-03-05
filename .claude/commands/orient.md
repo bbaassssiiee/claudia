@@ -30,8 +30,11 @@ Based on the answers, do ALL of the following:
 - Wants to build agents or orchestrate work →
   `/explore agents` → `/explore subagents` → `/claudia`
 
+- Wants to understand agentic AI through role dynamics →
+  `/explore theatre` → `@documents/theatre_entree.md` → `/claudia`
+
 - Wants to understand this repo's architecture →
-  `/explore three-layer-architecture` → `@documents/workshop_path.md`
+  `/explore three-layer-architecture` → `/explore theatre` → `@documents/theatre_entree.md`
 
 - Has a pattern to contribute →
   `/explore patterns` to see the taxonomy, then `/contribute`

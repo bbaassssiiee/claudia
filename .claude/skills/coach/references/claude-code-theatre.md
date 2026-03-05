@@ -4,6 +4,18 @@ A session is a performance. Every entity occupies a role. Roles shift.
 
 ---
 
+## Theatre as meta-level
+
+Theatre is not a fourth layer. It is the lens through which the three layers become visible.
+- The three layers are **backstage** — the machinery the audience does not see
+- The roles are **the cast** — director, primary actor, participant, observer, antagonist
+- The practitioner is **the audience**
+- The commands are **the curriculum that teaches the performance**
+
+Coached scaffolding describes the *what*. Theatre describes the *who* and the *how*.
+
+---
+
 ## The cast
 
 | Role | Function | Failure mode |

@@ -43,6 +43,9 @@ Building a multi-agent workflow:
 Want to add to this repo:
   /explore patterns → /explore anti-patterns → /contribute
 
+Thinking about agentic AI through role dynamics:
+  /explore theatre → /explore roles → /explore levels → /explore cast → /claudia
+
 Understanding the architecture:
   /explore three-layer-architecture → /explore coached-scaffolding → /claudia
 
@@ -77,6 +80,9 @@ This skill knows the repo structure and can answer:
 - "How do I add a pattern?" → /contribute
 - "What commands are available?" → .claude/commands/
 - "What skills are active?" → .claude/skills/
+- "Where is the theatre documentation?" → documents/theatre_entree.md → documents/theatre/
+- "What roles exist in a session?" → documents/theatre/cast/
+- "What is backstage?" → documents/theatre/backstage/
 - "What do Claudia's references cover?" → one file per Claude Code topic area:
   CLAUDE.md, skills, agents, hooks, settings, patterns, MCP
 
@@ -89,7 +95,11 @@ Explain the three layers:
 2. Curriculum — commands that teach by doing, each ending with a rabbit hole pointer
 3. Ambient coach — CLAUDE.md + rules + skills: who Claude is in this context, always
 
-Then point at @documents/forking_path.md for the full forking guide.
+The theatre frame names what the three layers are:
+backstage (infrastructure), cast (roles), audience (practitioner).
+Point at `@documents/theatre_entree.md` for the programme.
+
+Then point at `@documents/theatre/backstage/forking-guide.md` for the full forking guide.
 
 The strange loop: this repo documents patterns for AI-augmented coding,
 and is itself an example of those patterns applied to the domain of Claude Code.

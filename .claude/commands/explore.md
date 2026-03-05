@@ -74,6 +74,7 @@ Related holes worth exploring: /explore [topic1], /explore [topic2]"
 - settings → permissions → allow-deny → env-passthrough → managed-settings
 - patterns → anti-patterns → obstacles → taxonomy → contribute
 - coached-scaffolding → three-layer-architecture → strange-loop → GEB
+- theatre → roles → levels → cast → backstage → strange-loop
 - MCP → tool-integration → external-services → server-configuration
 
 ---
@@ -88,6 +89,8 @@ If the concept has a Claudia reference doc, point to it at Level 2 and 3:
 - hooks, lifecycle, PreToolUse → `@.claude/skills/coach/references/claude-code-hooks.md`
 - settings, permissions, env → `@.claude/skills/coach/references/claude-code-settings.md`
 - patterns, anti-patterns, catalog → `@.claude/skills/coach/references/claude-code-patterns.md`
+
+- theatre, roles, cast, levels, session dynamics → `@.claude/skills/coach/references/claude-code-theatre.md`
 
 If no reference doc exists for the concept:
 "This isn't in the reference catalog yet. `/contribute` to add it — or `/claudia` to
@@ -109,4 +112,28 @@ At Level 3, end with:
 "The deepest hole in this repo is the one you dig yourself.
 `/contribute` is the meta-command. `/achilles` is the easter egg.
 You were warned."
+
+---
+
+## The theatre special case
+
+If $ARGUMENTS is `theatre`, `roles`, `cast`, `backstage`, `levels`,
+`session-dynamics`, or `agentic-AI`:
+
+At Level 1, add after the standard explanation:
+"Theatre is the meta-level of this repo. It names the roles that the three-layer
+architecture plays. The content layer is backstage. The commands are curriculum.
+The skills are participants. The practitioner is the audience."
+
+At Level 2, point to the cast directory:
+"The roles: `@documents/theatre/cast/` — director, primary-actor, participant,
+observer, antagonist, and Claudia who watches them all."
+
+At Level 3, point to the backstage machinery:
+"The backstage: `@documents/theatre/backstage/` — role dynamics, multilevel
+performance, prompt design, description triggers, and the forking guide."
+
+End with:
+"The deepest level is noticing which role you are occupying right now.
+`/claudia` will tell you if you ask."
 
