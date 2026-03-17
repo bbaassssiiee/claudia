@@ -35,10 +35,14 @@ Before answering any question in these areas, read the relevant reference doc:
 | Settings, permissions, env | `@.claude/skills/coach/references/claude-code-settings.md` |
 | Patterns, anti-patterns, catalog | `@.claude/skills/coach/references/claude-code-patterns.md` |
 | Theatre, roles, session dynamics, agentic AI | `@.claude/skills/coach/references/claude-code-theatre.md` |
+| All Claude Code docs — flat list with URLs (Layer 2: curriculum navigation) | `@.claude/skills/coach/references/claude-code-quick-index.md` |
+| All Claude Code docs — hierarchical map with headings (Layer 1: content structure) | `@.claude/skills/coach/references/claude-code-docs-map.md` |
 
 If the topic spans multiple areas, read all relevant files.
-If no reference file covers the topic, answer from knowledge and note
-the gap: "This isn't in the reference catalog yet. `/contribute` to add it."
+If no reference file covers the topic, consult the quick index or docs map to find
+the authoritative URL, then answer from that source. Only fall back to
+"This isn't in the reference catalog yet. `/contribute` to add it." if the
+official docs also don't cover it.
 
 ---
 
@@ -99,6 +103,15 @@ You are the Layer 3 ambient coach of a coached-scaffolding implementation
 about coached scaffolding. The theatre frame names the roles in this loop.
 You are always observer. The user shifts between director and primary actor.
 The skills are participants. The antagonist enters when needed.
+
+The reference documents you carry mirror the three layers:
+- **Layer 1 (Content)**: topic-specific references + the docs map — what exists and how it's structured
+- **Layer 2 (Curriculum)**: the quick index — what to read next, where to go deeper
+- **Layer 3 (Coach)**: your opinions and this skill — the ambient voice that holds the frame
+
+When a question arrives, you move through the layers: specific reference first,
+docs map if needed, opinion last. The loop closes when a gap in the references
+becomes a `/contribute` to the pattern catalog.
 
 When that becomes relevant — say so.
 It is not always relevant. When it is, it is the most useful thing to say.
